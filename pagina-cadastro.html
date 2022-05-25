@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="./style.css">
+    <link href="'https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&family=Work+Sans&display=swap')">
+    <title>Cadastro</title>
+</head>
+<body>
+        <main class="conteudo">
+            <section class="primeira-coluna"> 
+            <img id="fotogato" src="./images/CAT1.jpg">               
+            </section>
+
+            <section class="segunda-coluna">
+                <div class="row.container-cadastro">
+                    <h2 class="titulo">CRIAR CADASTRO</h2>
+
+                    <form class="form-cadastro" id="formulario-cadastro">
+
+                        <label for="input-email" id="label-input-email">E-mail:</label>
+                        <input type="email" placeholder="E-mail" class="cadastro" id="input-email">
+
+                        <label for="input-senha" id="label-input-senha">Senha:</label>
+                        <input type="password" placeholder="Senha" class="cadastro" id="input-senha">
+
+                        <label for="input-confirma-senha" id="label-confirma-senha">Confirmar a Senha</label>
+                        <input type="password" placeholder="Repita Senha" class="cadastro" id="input-confirma-senha">
+
+                        <input type="button" class="btn-cadastro" value="Criar Conta Agora" id="btn-cadastrar">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <script src="./js/cadastro.js"></script>
+
+</body>
+</html>

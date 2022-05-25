@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="'https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&family=Work+Sans&display=swap')">
+    <title>RECADOS</title>
+</head>
+<body id="papel-parede-recados">
+    <main>
+        <section class="adicionar">
+          <button id="logout">Sair</button>
+            <h1 id="titulo-home">MURAL DE RECADOS E TAREFAS CASEIRAS</h1>
+            <form id="form-home-recados">
+                <input type="text" class="input-adicionar" id="descricao" placeholder="Recado ou Tarefa"/>
+                <input type="text" class="input-adicionar" id="detalhamento" placeholder="Detalhar"/>
+                <input type="button" id="btn-adicionar" value="salvar" />
+            </form>
+        </section>
+        <section class="visualizar">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="ordemacao">#</th>
+                        <th id="tex">Descrição</th>
+                        <th id="tex">Detalhamento</th>
+                        <th class="ordemacao">Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela"></tbody>
+            </table>
+        </section>
+    </main>
+    <script src="./js/recados.js"></script>
+
+</body>
+</html>
